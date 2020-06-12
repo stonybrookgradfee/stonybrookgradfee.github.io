@@ -8,9 +8,9 @@ function makeSlider(){
 		var slider = document.getElementById("slider");
 		slider.max = salary;
 		slider.value = salary;
-		document.getElementById("cut").innerHTML = "<p>Salary: $" + salary + "</p><p>Dollars cut: $0</p><p>Grad students' fees paid: 0</p>";
+		document.getElementById("cut").innerHTML = "<p><strong>Salary:</strong> $" + salary + "</p><p><strong>Dollars cut:</strong> $0</p><p><strong>Grad students' fees paid:</strong> 0</p>";
 		slider.oninput = function (){
-			document.getElementById("cut").innerHTML = "<p>Salary: $" + this.value + "</p><p>Dollars cut: $" + (salary - this.value) + "</p><p>Grad students' fees paid: " + Math.round((salary - this.value) / fees) + "</p>";
+			document.getElementById("cut").innerHTML = "<p><strong>Salary:</strong> $" + this.value + "</p><p><strong>Dollars cut:</strong> $" + (salary - this.value) + "</p><p><strong>Grad students' fees paid:</strong> " + Math.round((salary - this.value) / fees) + "</p>";
 		}
 	} else {
 		var slider = document.getElementById("slider");

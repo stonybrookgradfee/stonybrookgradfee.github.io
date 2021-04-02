@@ -1,3 +1,3 @@
-# stonybrookgradfee.github.io
+# Stony Brook Living Wage Campaign
 
-End fees for graduate students at Stony Brook University
+Page for Stony Brook graduate students' living wage campaign

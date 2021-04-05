@@ -192,6 +192,7 @@ sup {
 
 blockquote {
   border-left: solid 3px rgba(211, 78, 60, 1);
+  background-color: rgba(165, 192, 205, .5);
   font-size: 1.25em;
   font-style: italic;
   margin: 0 0 2em 0;
@@ -1220,12 +1221,14 @@ input[type="radio"] + label:before {
   border-radius: 0.375em;
   border: 0;
   display: inline-block;
+  /*max-width: 50%;*/
   position: relative; }
   .image img {
     border-radius: 0.375em;
+	/*width: 100%;*/
     display: block; }
   .image.left, .image.right {
-    max-width: 40%; }
+    max-width: 50%; }
     .image.left img, .image.right img {
       width: 100%; }
   .image.left {
